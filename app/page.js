@@ -90,7 +90,11 @@ function SectionCard({ s, isActive, onClick }) {
     >
       <div className="section-card-header">
         <div className="section-badge">
-          {style.icon} {s.section}
+          <span
+            className="section-badge-mark"
+            style={{ background: style.hex }}
+          />
+          {s.section}
         </div>
         <div className="section-rate-badge">{s.paymentRate}%</div>
       </div>
