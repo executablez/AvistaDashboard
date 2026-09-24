@@ -29,7 +29,7 @@ const SECTION_STYLES = {
   'WP2/1': {
     color: 'var(--accent-blue)',
     dim: 'var(--accent-blue-dim)',
-    icon: '�',
+    icon: '◼',
     hex: '#7c8a6e',
   },
   'WP2/2': {
